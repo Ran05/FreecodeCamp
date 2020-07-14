@@ -1,8 +1,8 @@
 function myLocalScope() {
   'use strict';
 
-  // Only change code below this line
-var myVar = "sample";
+ 
+var myVar = "forScope";
   console.log('inside myLocalScope', myVar);
 }
 

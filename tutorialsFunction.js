@@ -14,7 +14,7 @@ console.log('outside myLocalScope', myVar);
 
 
 //2.Basic JavaScript: Global vs. Local Scope in Functions
-
+//(Global Variable can override over the Local variable using function)... 
 
 // Setup
 var outerWear = "T-Shirt";

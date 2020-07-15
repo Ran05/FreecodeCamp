@@ -1,3 +1,6 @@
+//1.Basic Javascript: Functions Tutorials
+
+
 function myLocalScope() {
   'use strict';
 
@@ -13,7 +16,7 @@ myLocalScope();
 console.log('outside myLocalScope', myVar);
 
 
-//Basic JavaScript: Global vs. Local Scope in Functions
+//2.Basic JavaScript: Global vs. Local Scope in Functions
 
 
 // Setup
@@ -29,3 +32,13 @@ var outerWear  = "sweater";
 }
 
 myOutfit();
+
+
+//3.Return a Value from a Function with Return
+
+
+function timesFive(num){
+  return num * 5;
+}
+
+var answer = timesFive(5);

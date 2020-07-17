@@ -1,0 +1,11 @@
+// Setup
+var processed = 0;// value is 0
+
+function processArg(num) {
+  return (num + 3) / 5; //processArg 0+3 /5 = cannot be
+}
+
+// Only change code below this line
+processed=processArg(7);// we pass 7 to num
+
+// so num= (7+3) / 5 = 2   output

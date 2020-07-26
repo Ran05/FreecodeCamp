@@ -1,11 +1,8 @@
 /*
-Basic JavaScript: Comparison with the Strict Equality Operator
-Strict equality (===) is the counterpart to the equality operator (==). 
-However, unlike the equality operator, which attempts to convert both values 
-being compared to a common type, the strict equality operator does not perform a type conversion.
+There are many comparison operators in JavaScript. All of these operators return a boolean true or false value.
 
-If the values being compared have different types, they are considered unequal,
- and the strict equality operator will return false.
+The most basic operator is the equality operator ==. The equality operator compares two values and returns true if they're equivalent or false if they are not. 
+Note that equality is different from assignment (=), which assigns the value on the right of the operator to a variable on the left.
 
 */
 
